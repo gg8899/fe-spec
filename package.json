@@ -1,0 +1,16 @@
+{
+  "name": "front-end-engineering",
+  "private": true,
+  "description": "前端编码规范工程化",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "init": "pnpm install",
+    "clean": "lerna clean && rm -rf node_modules",
+    "build": "lerna run build --stream"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.0.2"
+  }
+}
