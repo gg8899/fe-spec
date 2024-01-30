@@ -9,12 +9,24 @@ lerna create commitlint-config
 lerna create markdownlint-config
 
 // 2、
-cnpm install -g markdownlint-cli
+pnpm install -g markdownlint-cli
 pnpm run lint
 
 // 3、
-cnpm install -g conventional-changelog-cli
+pnpm install -g conventional-changelog-cli
 pnpm run changelog
+
+
+// 4、支持配套的 commitlint 配置
+pnpm install commitlint-config-encode @commitlint/cli --save-dev
+pnpm install --save-dev @commitlint/config-conventional @commitlint/cli
+
+
+// 5、设置 git hook
+pnpm install --save-dev husky
+npx husky init
+echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
+-- npx husky add .husky/commit-msg 'npx commitlint --edit $1'
 
 
 ```
@@ -119,4 +131,5 @@ export default defineConfig({
 
 ### Markdown 拓展
 
-网站内部的链接，将会被转换成 `<router-link>` 用于 SPA 导航。同时，站内的每一个文件夹下的 `README.md` 或者 `index.md` 文件都会被自动编译为 `index.html`，对应的链接将被视为 `/`。
+**网站内部的链接**，将会被转换成 `<router-link>` 用于 SPA 导航。同时，站内的每一个文件夹下的 `README.md` 或者 `index.md` 文件都会被自动编译为 `index.html`，对应的链接将被视为 `/`。
+
