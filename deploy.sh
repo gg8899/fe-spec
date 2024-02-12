@@ -6,7 +6,9 @@ set -e
 
 push_addr=`git remote get-url --push origin`
 commit_info=`git describe --all --always --long`
+#打包的地址资源
 dist_path=docs/.vuepress/dist
+# 提交的分支。
 push_branch=gh-pages
 
 # 生成静态文件
