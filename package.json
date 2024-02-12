@@ -27,7 +27,7 @@
     "commitlint-config-encode": "^1.0.8",
     "markdownlint": "^0.28.1",
     "rimraf": "^3.0.2",
-    "husky": "^9.0.7",
+    "husky": "^8.0.3",
     "lerna": "^6.6.2",
     "ts-node": "^10.9.1",
     "tslib": "^2.5.2",
