@@ -3,11 +3,16 @@
 ## 步骤
 ```js
 // 1、安装多包管理工具。
-cnpm i lerna -g
+pnpm i lerna -g
 
 lerna create commitlint-config
 lerna create markdownlint-config
 
+lerna create stylelint-config 
+lerna create eslint-config
+
+lerna create encode-fe-lint
+lerna create eslint-plugin
 // 2、
 pnpm install -g markdownlint-cli
 pnpm run lint
