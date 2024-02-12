@@ -1,6 +1,6 @@
 {
   "name": "encode-gg-stylelint-config",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
