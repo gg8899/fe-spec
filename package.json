@@ -1,5 +1,5 @@
 {
-  "name": "front-end-engineering",
+  "name": "front-end-gg-engineering",
   "description": "前端编码规范工程化1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",

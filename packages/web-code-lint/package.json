@@ -1,5 +1,5 @@
 {
-  "name": "web-code-lint",
+  "name": "web-code-gg-lint",
   "version": "0.0.13",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
