@@ -6,7 +6,7 @@ import log from './log';
 import { PKG_NAME } from './constants';
 import type { PKG } from '../types';
 
-// 精确移除依赖
+// 精确移除 依赖
 const packageNamesToRemove = [
   '@babel/eslint-parser',
   '@commitlint/cli',
