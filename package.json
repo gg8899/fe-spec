@@ -5,7 +5,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "init": "pnpm install",
-    "clean": "lerna clean && rm -rf node_modules",
+    "clean": "lerna clean && rmdir /s /q node_modules",
     "build": "lerna run build --stream",
     "docs:dev": "vuepress dev docs",
     "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs",
