@@ -6,7 +6,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "dev": "npm run copyfiles && tsc -w",
-    "build": "rm -rf lib && npm run copyfiles && tsc",
+    "build": "rmdir -rf lib && npm run copyfiles && tsc",
     "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
     "test": "npm run build && jest",
     "coverage": "nyc jest --silent --forceExit",
@@ -95,5 +95,5 @@
   "bugs": {
     "url": "https://github.com/gg8899/Front-end-Engineering/issues"
   },
-  "gitHead": "8054d111e74c4f052020c0517ed073cc0b9f55fa"
+  "gitHead": "65532e8d0c26b59bc3c55062b287d9b641133d48"
 }
