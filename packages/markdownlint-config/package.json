@@ -11,7 +11,7 @@
     "url": "git+https://github.com/gg8899/Front-end-Engineering.git"
   },
   "scripts": {
-    "test": "node ./__tests__/markdownlint-config.test.js"
+    "test": "node ./__tests__/markdownlint-gg-config.test.js"
   },
   "bugs": {
     "url": "https://github.com/gg8899/Front-end-Engineering/issues"

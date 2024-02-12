@@ -15,7 +15,7 @@ $ npm install webfront-gg-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['encode-fe-eslint-config'],
+  plugin: ['encode-gg-eslint-config'],
   rules: {
     'webfront-gg-eslint-plugin/no-secret-info': 'error',
   },

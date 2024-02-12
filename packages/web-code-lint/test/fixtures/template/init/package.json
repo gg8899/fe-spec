@@ -1,7 +1,7 @@
 {
-  "name": "web-code-lint-init-test",
+  "name": "web-code-gg-lint-init-test",
   "version": "1.0.0",
-  "description": "web-code-lint init test",
+  "description": "web-code-gg-lint init test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

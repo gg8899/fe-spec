@@ -5,14 +5,14 @@
 // 1、安装多包管理工具。
 pnpm i lerna -g
 
-lerna create commitlint-config
-lerna create markdownlint-config
+lerna create commitlint-gg-config
+lerna create markdownlint-gg-config
 
 lerna create stylelint-config 
 lerna create eslint-config
 
 lerna create eslint-plugin
-lerna createweb-code-lint
+lerna createweb-code-gg-lint
 
 // 2、
 pnpm install -g markdownlint-cli
@@ -24,7 +24,7 @@ pnpm run changelog
 
 
 // 4、支持配套的 commitlint 配置
-pnpm install commitlint-config-encode @commitlint/cli --save-dev
+pnpm install commitlint-gg-config-encode @commitlint/cli --save-dev
 pnpm install --save-dev @commitlint/config-conventional @commitlint/cli
 
 

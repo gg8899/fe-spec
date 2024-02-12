@@ -1,6 +1,10 @@
 {
   "name": "front-end-gg-engineering",
   "description": "前端编码规范工程化1",
+  "private": true,
+  "package": [
+    "packages/*"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
@@ -16,7 +20,6 @@
     "commitlint": "commitlint --edit"
   },
   "keywords": [
-    "encode",
     "front-end-engineering"
   ],
   "author": "gg8899",
@@ -24,7 +27,6 @@
   "devDependencies": {
     "@commitlint/cli": "^18.6.0",
     "@commitlint/config-conventional": "^18.6.0",
-    "commitlint-config-encode": "^1.0.8",
     "markdownlint": "^0.28.1",
     "rimraf": "^3.0.2",
     "husky": "^8.0.3",
