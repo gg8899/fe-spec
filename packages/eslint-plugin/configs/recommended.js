@@ -1,7 +1,7 @@
 module.exports = {
-  plugins: ['encode-fe-eslint-plugin'],
+  plugins: ['webfront-gg-eslint-plugin'],
   rules: {
-    'encode-fe-eslint-plugin/no-http-url': 'warn',
-    'encode-fe-eslint-plugin/no-secret-info': 'error',
+    'webfront-gg-eslint-plugin/no-http-url': 'warn',
+    'webfront-gg-eslint-plugin/no-secret-info': 'error',
   },
 };

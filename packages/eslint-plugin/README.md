@@ -1,11 +1,11 @@
-# encode-fe-eslint-plugin
+# webfront-gg-eslint-plugin
 
 ## 安装
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install encode-fe-eslint-plugin eslint --save-dev
+$ npm install webfront-gg-eslint-plugin eslint --save-dev
 ```
 
 ## 使用
@@ -17,7 +17,7 @@ $ npm install encode-fe-eslint-plugin eslint --save-dev
 module.exports = {
   plugin: ['encode-fe-eslint-config'],
   rules: {
-    'encode-fe-eslint-plugin/no-secret-info': 'error',
+    'webfront-gg-eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -27,7 +27,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:encode-fe-eslint-plugin/recommended',
+  extends: 'plugin:webfront-gg-eslint-plugin/recommended',
 };
 ```
 
