@@ -12,7 +12,7 @@ lerna create stylelint-config
 lerna create eslint-config
 
 lerna create eslint-plugin
-lerna create web-code-lint
+lerna createweb-code-lint
 
 // 2、
 pnpm install -g markdownlint-cli
