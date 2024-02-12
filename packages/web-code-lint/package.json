@@ -1,7 +1,7 @@
 {
   "name": "encode-fe-lint",
   "version": "0.0.7",
-  "description": "印客教育前端编码规范工程化脚手架",
+  "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
   "scripts": {
@@ -85,14 +85,14 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
   },
-  "author": "chenghuai",
-  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "author": "GUOKKK <528032175@qq.com>",
+  "homepage": "https://github.com/gg8899/Front-end-Engineering#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+    "url": "git+https://github.com/gg8899/Front-end-Engineering.git"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+    "url": "https://github.com/gg8899/Front-end-Engineering/issues"
   }
 }

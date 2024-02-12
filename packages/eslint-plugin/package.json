@@ -1,7 +1,7 @@
 {
   "name": "encode-fe-eslint-plugin",
   "version": "0.0.7",
-  "description": "印客教育自定义eslint插件",
+  "description": "自定义eslint插件",
   "scripts": {
     "test": "jest",
     "prepublishOnly": "npm run test"
@@ -17,15 +17,15 @@
     "eslint-plugin"
   ],
   "main": "src/index.js",
-  "author": "chenghuai",
-  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "author": "GUOKKK <528032175@qq.com>",
+  "homepage": "https://github.com/gg8899/Front-end-Engineering#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+    "url": "git+https://github.com/gg8899/Front-end-Engineering.git"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+    "url": "https://github.com/gg8899/Front-end-Engineering/issues"
   },
   "dependencies": {
     "fs-extra": "^9.0.1",
