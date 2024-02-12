@@ -1,6 +1,6 @@
 {
   "name": "web-code-lint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
