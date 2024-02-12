@@ -52,7 +52,7 @@ importers:
         specifier: ^2.7.14
         version: 2.7.16
       vuepress:
-        specifier: ^1.9.10
+        specifier: ^1.9.9
         version: 1.9.10
       vuepress-plugin-one-click-copy:
         specifier: ^1.0.2
