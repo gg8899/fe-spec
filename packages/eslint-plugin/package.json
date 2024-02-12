@@ -1,6 +1,6 @@
 {
   "name": "webfront-gg-eslint-plugin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "自定义eslint插件",
   "scripts": {
     "test": "jest",

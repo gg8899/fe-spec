@@ -1,6 +1,6 @@
 {
   "name": "encode-fe-stylelint-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
