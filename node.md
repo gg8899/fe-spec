@@ -139,3 +139,10 @@ export default defineConfig({
 
 **网站内部的链接**，将会被转换成 `<router-link>` 用于 SPA 导航。同时，站内的每一个文件夹下的 `README.md` 或者 `index.md` 文件都会被自动编译为 `index.html`，对应的链接将被视为 `/`。
 
+
+
+## 发布静态git action 的问题。
+1、vuepress 的包的版本，和 node 的发布的版本问题。
+2、配置 access token 后 在流水线中也要在pages 中配置，然后自动生成域名。
+3、生成的token配置的东西 需要全部选择，在配置流水线的时候。
+4、配置项目的流水线的时候，默认选项即可。不然更改可能触发不了流水线操作。
