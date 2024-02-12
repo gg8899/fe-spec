@@ -1,6 +1,6 @@
 {
   "name": "front-end-engineering",
-  "description": "前端编码规范工程化",
+  "description": "前端编码规范工程化1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
