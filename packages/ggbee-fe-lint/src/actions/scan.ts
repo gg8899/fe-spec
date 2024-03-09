@@ -12,7 +12,9 @@ export default async (options: ScanOptions): Promise<ScanReport> => {
     return fs.existsSync(localPath) ? require(localPath) : {};
   };
   const pkg: PKG = readConfigFile('package.json');
+  // 读取文件内容
   const config: Config = scanConfig || readConfigFile(`${PKG_NAME}.config.js`);
+  // 将错误信息记录下来
   const runErrors: Error[] = [];
   let results: ScanResult[] = [];
 

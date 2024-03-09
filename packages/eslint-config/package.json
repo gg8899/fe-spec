@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-ggbee",
   "version": "1.0.0",
+  "main": "index.js",
   "description": "JavaScript TypeScript Node 规范",
   "keywords": [
     "javaScript",
@@ -16,14 +17,6 @@
   "author": "GUOKKK <528032175@qq.com>",
   "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",
-  "main": "lib/eslint-config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gg8899/ggbee-fe-lint.git"

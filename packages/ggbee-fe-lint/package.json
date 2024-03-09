@@ -15,6 +15,13 @@
   "files": [
     "lib/"
   ],
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "keywords": [
+    "lint",
+    "cli"
+  ],
   "author": "GUOKKK <528032175@qq.com>",
   "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",

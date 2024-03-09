@@ -1,6 +1,7 @@
 {
   "name": "markdownlint-config-ggbee",
   "version": "1.0.0",
+  "main": "index.json",
   "description": "markdownlint配置",
   "keywords": [
     "markdownlint"
@@ -8,7 +9,6 @@
   "author": "GUOKKK <528032175@qq.com>",
   "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",
-  "main": "index.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gg8899/ggbee-fe-lint.git"
