@@ -1,12 +1,16 @@
 {
   "name": "ggbee-fe-spec",
   "description": "ggbee前端常规编码工程化规范",
-  "private": false,
+  "private": true,
+  "package": [
+    "packages/*"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "init": "pnpm install",
-    "clean": "lerna clean",
+    "clean": "lerna clean && rimraf node_modules",
+    "test": "lerna run test",
     "build": "lerna run build --stream",
     "docs:dev": "vuepress dev docs",
     "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs",
@@ -27,7 +31,7 @@
     "markdownlint": "^0.28.1",
     "rimraf": "^3.0.2",
     "husky": "^8.0.3",
-    "lerna": "^6.6.2",
+    "lerna": "^8.1.2",
     "ts-node": "^10.9.1",
     "tslib": "^2.5.2",
     "pnpm": "^8.6.0",
