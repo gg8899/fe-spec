@@ -5,14 +5,16 @@
 // 1、安装多包管理工具。
 pnpm i lerna -g
 
-lerna create commitlint-gg-config
-lerna create markdownlint-gg-config
+npx lerna create commitlint-config
+npx lerna create markdownlint-config
 
-lerna create stylelint-config 
-lerna create eslint-config
+npx lerna create stylelint-config 
+npx lerna create eslint-config
 
-lerna create eslint-plugin
-lerna createweb-code-gg-lint
+npx lerna create ggbee-fe-lint
+npx lerna create eslint-plugin
+
+lerna create ggbee-fe-lint
 
 // 2、
 pnpm install -g markdownlint-cli

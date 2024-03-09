@@ -1,15 +1,11 @@
 {
-  "name": "eslint-plugin-ggbee",
+  "name": "ggbee-fe-lint",
   "version": "0.0.0",
-  "description": "eslint plugin",
-  "keywords": [
-    "eslint",
-    "plugin"
-  ],
+  "description": "ggbee的前端编码规范配置",
   "author": "GUOKKK <528032175@qq.com>",
   "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",
-  "main": "lib/eslint-plugin.js",
+  "main": "lib/ggbee-fe-lint.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,7 +18,7 @@
     "url": "git+https://github.com/gg8899/ggbee-fe-lint.git"
   },
   "scripts": {
-    "test": "node ./__tests__/eslint-plugin.test.js"
+    "test": "node ./__tests__/ggbee-fe-lint.test.js"
   },
   "bugs": {
     "url": "https://github.com/gg8899/ggbee-fe-lint/issues"

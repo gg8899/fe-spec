@@ -1,23 +1,29 @@
 {
-  "name": "markdownlint-gg-config",
-  "version": "0.0.14",
-  "description": "> TODO: description",
+  "name": "markdownlint-config-ggbee",
+  "version": "0.0.0",
+  "description": "markdownlint配置",
+  "keywords": [
+    "markdownlint"
+  ],
   "author": "GUOKKK <528032175@qq.com>",
-  "homepage": "https://github.com/gg8899/Front-end-Engineering#readme",
+  "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",
-  "main": "index.json",
+  "main": "lib/markdownlint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gg8899/Front-end-Engineering.git"
+    "url": "git+https://github.com/gg8899/ggbee-fe-lint.git"
   },
   "scripts": {
-    "test": "node ./__tests__/markdownlint-gg-config.test.js"
+    "test": "node ./__tests__/markdownlint-config.test.js"
   },
   "bugs": {
-    "url": "https://github.com/gg8899/Front-end-Engineering/issues"
-  },
-  "peerDependencies": {
-    "markdownlint": "^0.28.1"
-  },
-  "gitHead": "8054d111e74c4f052020c0517ed073cc0b9f55fa"
+    "url": "https://github.com/gg8899/ggbee-fe-lint/issues"
+  }
 }

@@ -1,10 +1,7 @@
 {
-  "name": "front-end-gg-engineering",
-  "description": "前端编码规范工程化1",
-  "private": true,
-  "package": [
-    "packages/*"
-  ],
+  "name": "ggbee-fe-spec",
+  "description": "ggbee前端常规编码工程化规范",
+  "private": false,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
@@ -20,7 +17,7 @@
     "commitlint": "commitlint --edit"
   },
   "keywords": [
-    "front-end-engineering"
+    "fe spec"
   ],
   "author": "gg8899",
   "license": "ISC",

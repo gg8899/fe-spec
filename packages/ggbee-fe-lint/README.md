@@ -1,11 +1,11 @@
-# `eslint-config`
+# `ggbee-fe-lint`
 
 > TODO: description
 
 ## Usage
 
 ```
-const eslintConfig = require('eslint-config');
+const ggbeeFeLint = require('ggbee-fe-lint');
 
 // TODO: DEMONSTRATE API
 ```

@@ -1,11 +1,11 @@
-# `markdownlint-gg-config`
+# `markdownlint-config`
 
 > TODO: description
 
 ## Usage
 
 ```
-const markdownlintConfig = require('markdownlint-gg-config');
+const markdownlintConfig = require('markdownlint-config');
 
 // TODO: DEMONSTRATE API
 ```
