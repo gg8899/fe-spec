@@ -12,7 +12,7 @@ function isObject(obj) {
 }
 
 describe('Validate JS configs', () => {
-  it('Validate eslint-config-encode', async () => {
+  it('Validate eslint-config-ggbee', async () => {
     const configPath = './index.js';
     const filePath = path.join(__dirname, './fixtures/index.js');
 
@@ -33,7 +33,7 @@ describe('Validate JS configs', () => {
     assert.notEqual(sumBy(results, 'warningCount'), 0);
   });
 
-  it('Validate eslint-config-encode/es5', async () => {
+  it('Validate eslint-config-ggbee/es5', async () => {
     const configPath = './es5.js';
     const filePath = path.join(__dirname, './fixtures/es5.js');
 
@@ -61,7 +61,7 @@ describe('Validate JS configs', () => {
     assert.notEqual(errorReportedByReactPlugin.length, 0);
   });
 
-  it('Validate eslint-config-encode/vue', async () => {
+  it('Validate eslint-config-ggbee/vue', async () => {
     const configPath = './vue.js';
     const filePath = path.join(__dirname, './fixtures/vue.vue');
 
@@ -89,7 +89,7 @@ describe('Validate JS configs', () => {
     assert.notEqual(errorReportedByReactPlugin.length, 0);
   });
 
-  it('Validate eslint-config-encode/essential', async () => {
+  it('Validate eslint-config-ggbee/essential', async () => {
     const configPath = './essential/index.js';
     const filePath = path.join(__dirname, './fixtures/index.js');
 
@@ -125,7 +125,7 @@ describe('Validate JS configs', () => {
     assert.equal(commaSpacingErrors[0].severity, 1);
   });
 
-  it('Validate eslint-config-encode/essential/es5', async () => {
+  it('Validate eslint-config-ggbee/essential/es5', async () => {
     const configPath = './essential/es5.js';
     const filePath = path.join(__dirname, './fixtures/es5.js');
 
@@ -158,7 +158,7 @@ describe('Validate JS configs', () => {
     assert.equal(errorReportedByReactPluginBlackList.length, 0);
   });
 
-  it('Validate eslint-config-encode/essential/react', async () => {
+  it('Validate eslint-config-ggbee/essential/react', async () => {
     const configPath = './essential/react.js';
     const filePath = path.join(__dirname, './fixtures/react.jsx');
 
@@ -191,7 +191,7 @@ describe('Validate JS configs', () => {
     assert.equal(errorReportedByReactPluginBlackList.length, 0);
   });
 
-  it('Validate eslint-config-encode/essential/vue', async () => {
+  it('Validate eslint-config-ggbee/essential/vue', async () => {
     const configPath = './essential/vue.js';
     const filePath = path.join(__dirname, './fixtures/vue.vue');
 
@@ -225,7 +225,7 @@ describe('Validate JS configs', () => {
     assert.equal(errorReportedByReactPluginBlackList.length, 0);
   });
 
-  it('Validate eslint-config-encode/node', async () => {
+  it('Validate eslint-config-ggbee/node', async () => {
     const configPath = './node.js';
     const filePath = path.join(__dirname, './fixtures/node.js');
 

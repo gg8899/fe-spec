@@ -26,7 +26,7 @@ pnpm run changelog
 
 
 // 4、支持配套的 commitlint 配置
-pnpm install commitlint-gg-config-encode @commitlint/cli --save-dev
+pnpm install commitlint-config-ggbee @commitlint/cli --save-dev
 pnpm install --save-dev @commitlint/config-conventional @commitlint/cli
 
 
