@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-ggbee",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "commitlint常规规范",
   "keywords": [
     "commitlint",
