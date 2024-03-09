@@ -1,6 +1,6 @@
 {
   "name": "markdownlint-config-ggbee",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "markdownlint配置",
   "keywords": [
     "markdownlint"
