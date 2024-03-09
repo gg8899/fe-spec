@@ -8,7 +8,7 @@
   "author": "GUOKKK <528032175@qq.com>",
   "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",
-  "main": "lib/markdownlint-config.js",
+  "main": "index.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gg8899/ggbee-fe-lint.git"
