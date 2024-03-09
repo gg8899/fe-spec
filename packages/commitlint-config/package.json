@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/gg8899/ggbee-fe-lint.git"
   },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  },
   "scripts": {
     "test": "node ./__tests__/commitlint-config.test.js"
   },

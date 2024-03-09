@@ -16,6 +16,9 @@
   "scripts": {
     "test": "node ./__tests__/markdownlint-config.test.js"
   },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  },
   "bugs": {
     "url": "https://github.com/gg8899/ggbee-fe-lint/issues"
   }
