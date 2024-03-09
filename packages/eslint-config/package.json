@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ggbee",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "JavaScript TypeScript Node 规范",
   "keywords": [
     "javaScript",
