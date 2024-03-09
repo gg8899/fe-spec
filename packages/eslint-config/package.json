@@ -8,6 +8,11 @@
     "node",
     "lint"
   ],
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha ./__tests__/*.test.js --timeout 5000",
+    "print-config": "eslint --print-config ./index.js > ./print-config.json"
+  },
   "author": "GUOKKK <528032175@qq.com>",
   "homepage": "https://github.com/gg8899/ggbee-fe-lint#readme",
   "license": "ISC",

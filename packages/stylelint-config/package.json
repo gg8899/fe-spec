@@ -23,7 +23,7 @@
     "stylelint-scss": "^4.1.0"
   },
   "scripts": {
-    "test": "node ./__tests__/stylelint-config.test.js"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/gg8899/ggbee-fe-lint/issues"
