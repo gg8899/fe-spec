@@ -52,7 +52,7 @@ export default async (install = true) => {
         `最新版本为 ${latestVersion}，本地版本为 ${PKG_VERSION}，请尽快升级到最新版本。\n你可以执行 ${npm} install -g ${PKG_NAME}@latest 来安装此版本\n`,
       );
     } else if (install) {
-      log.info(`当前没有可用的更新`);
+      log.info(`当前没有更新讷`);
     }
   } catch (e) {
     checking.stop();
