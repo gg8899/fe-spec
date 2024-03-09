@@ -1,11 +1,11 @@
-# `markdownlint-config`
+# `markdownlint-config-ggbee`
 
-> TODO: description
+> markdownlint-常规配置
 
 ## Usage
 
 ```
-const markdownlintConfig = require('markdownlint-config');
-
-// TODO: DEMONSTRATE API
+{
+  "extends": "markdownlint-config-ggbee"
+}
 ```

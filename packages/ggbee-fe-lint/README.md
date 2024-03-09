@@ -1,6 +1,6 @@
 # ggbee-fe-lint
 
-`ggbee-fe-lint` 是[gg8899个人搭建 前端编码规范工程化](https://github.com/gg8899/fe-spec/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
+`ggbee-fe-lint` 是[搭建的前端编码规范工程化](https://github.com/gg8899/fe-spec/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
 
 ## 背景
 

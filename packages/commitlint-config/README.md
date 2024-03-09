@@ -1,11 +1,16 @@
-# `commitlint-config`
+# `commitlint-config-ggbee`
 
-> TODO: description
+支持配套的 commitlint 配置，用于对 git commit message 进行校验。
+
+## 安装
 
 ## Usage
 
 ```
-const commitlintConfig = require('commitlint-config');
+const commitlintConfig = require('commitlint-config-ggbee');
 
-// TODO: DEMONSTRATE API
+module.exports = {
+  extends: ['commitlintConfig'],
+};
+
 ```

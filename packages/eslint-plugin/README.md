@@ -1,11 +1,9 @@
-# `eslint-plugin`
+# `eslint-plugin-ggbee`
 
-> TODO: description
+> eslint 自定义插件
 
 ## Usage
 
 ```
-const eslintPlugin = require('eslint-plugin');
 
-// TODO: DEMONSTRATE API
 ```

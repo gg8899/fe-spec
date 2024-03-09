@@ -1,11 +1,11 @@
-# `stylelint-config`
+# `stylelint-config-ggbee`
 
-> TODO: description
+> 支持配套的 stylelint 可共享配置。
 
 ## Usage
 
 ```
-const stylelintConfig = require('stylelint-config');
-
-// TODO: DEMONSTRATE API
+{
+  "extends": "stylelint-config-ggbee"
+}
 ```

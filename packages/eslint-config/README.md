@@ -1,11 +1,13 @@
-# `eslint-config`
+# `eslint-config-ggbee`
 
-> TODO: description
+> JavaScript TypeScript Node 规范
 
 ## Usage
 
 ```
-const eslintConfig = require('eslint-config');
+const eslintConfig = require('eslint-config-ggbee');
 
-// TODO: DEMONSTRATE API
+{
+  "extends": ["eslint-config-ggbee"]
+}
 ```
